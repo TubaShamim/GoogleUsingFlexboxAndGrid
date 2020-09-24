@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+}
+
+/* header */
+
+#nav-wrapper{
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.link-wrapper{
+	width: 100%;
+	margin: 10px;
+}
+
+.link-wrapper a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: rgb(77, 77, 77);
+}
+
+#sign-in{
+	background-color: #4487f5;
+	color: white;
+	outline: none;
+	border: 0px solid white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 3px;
+}
+
+/* main */
+
+#content-wrapper{
+	margin-top: 100px;
+	display: grid;
+	grid-template-rows: 0.5fr 0.1fr 0.3fr;
+	grid-gap: 10px;
+}
+
+#gif-wrapper{
+	width: 100%;
+	text-align: center;
+}
+
+#gif-wrapper img{
+	width: 38%;
+}
+
+#search-bar-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#search-bar{
+	width:600px;
+	height: 35px;
+	border-radius: 30px;
+	outline: none;
+	border: 1px solid rgba(197, 196, 196, 0.623);
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1em;
+	font-family: Arial;
+}
+
+#buttons-wrapper{
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 7px;
+	margin: auto;
+}
+
+.button{
+	border-radius: 2px;
+	width: 140px;
+	height: 35px;
+	margin-right: 10px;
+	background-color: #f2f2f2;
+	border: 0px solid white;
+	color: rgb(77, 77, 77);
+	position: relative;
+	font-size: 0.8em;
+	font-family: Arial;
+	font-weight: 500;
+	text-align: center;
+	outline: none;
+}
+
+/* footer */
+
+#footer-wrapper{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#UKbar{
+	background-color:#f2f2f2;
+	color: rgba(0,0,0,.54);
+	border-top: 1px solid rgba(194, 193, 193, 0.61);
+	border-bottom: 1px solid rgba(194, 193, 193, 0.61);
+	height: 40px;
+	display: flex;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	padding-left: 25px;
+}
+
+#footer-nav-wrapper{
+	background-color:#f2f2f2;
+	color: rgba(0,0,0,.54);
+	height: 40px;
+	display: flex;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	padding-left: 25px;
+}
+
+#left-footer-wrapper a, #right-footer-wrapper a{
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	font-family: Arial;
+}
+
+#left-footer-wrapper{
+	clear: both;
+	float: left;
+}
+
+#left-footer-wrapper a{
+	padding-right: 20px;
+}
+
+#right-footer-wrapper{
+	clear: both;
+	float: right;
+	margin-left: auto;
+	padding-right: 25px;
+}
+
+#right-footer-wrapper a{
+	padding-left: 20px;
+}
